@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 import com.squareup.picasso.Picasso;
 
 import java.net.URL;
@@ -28,7 +29,6 @@ public class PictureActivity extends AppCompatActivity implements View.OnClickLi
         mBtnLoadImage = findViewById(R.id.button);
 
         mBtnLoadImage.setOnClickListener(this);
-
     }
 
     @Override
